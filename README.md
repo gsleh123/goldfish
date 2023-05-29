@@ -1,116 +1,189 @@
-# The Slate theme
+# Landing Page Template built with Next JS 12+, Tailwind CSS 3 and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
-[![.github/workflows/ci.yaml](https://github.com/pages-themes/slate/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/slate/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-slate.svg)](https://badge.fury.io/rb/jekyll-theme-slate)
+<p align="center">
+  <a href="https://creativedesignsguru.com/demo/nextjs-landing-page/"><img src="public/assets/images/nextjs-landing-page-banner.png?raw=true" alt="Next js starter banner"></a>
+</p>
 
-*Slate is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/slate), or even [use it today](#usage).*
+🚀 Landing Page theme written in Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
 
-![Thumbnail of Slate](thumbnail.png)
+Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/nextjs-landing-page/).
 
-## Usage
+### DEMO
 
-To use the Slate theme:
+[![Nextjs Landing Page Template Screenshot](public/assets/images/nextjs-landing-page-screenshot.png?raw=true)](https://creativedesignsguru.com/demo/nextjs-landing-page/)
 
-1. Add the following to your site's `_config.yml`:
+Check out our [live demo](https://creativedesignsguru.com/demo/nextjs-landing-page/).
 
-    ```yml
-    remote_theme: pages-themes/slate@v0.2.0
-    plugins:
-    - jekyll-remote-theme # add this line to the plugins list if you already have one
-    ```
+### Features
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+Developer experience first:
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+- 🔥 [Next.js](https://nextjs.org) for Static Site Generator
+- 🎨 Integrate with [Tailwind CSS](https://tailwindcss.com)
+- 💅 PostCSS for processing Tailwind CSS and integrated to `styled-jsx`
+- 🎉 Type checking [TypeScript](https://www.typescriptlang.org)
+- ✅ Strict Mode for TypeScript and React 17
+- ✏️ Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals and Airbnb configuration)
+- 🛠 Code Formatter with [Prettier](https://prettier.io)
+- 🦊 Husky for Git Hooks
+- 🚫 Lint-staged for running linters on Git staged files
+- 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
+- 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
+- ⚙️ [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+- 🖱️ One click deployment with Vercel or Netlify (or manual deployment to any hosting services)
+- 🌈 Include a FREE theme
+- 💯 Maximize lighthouse score
 
-## Customizing
+Built-in feature from Next.js:
 
-### Configuration variables
+- ☕ Minify HTML & CSS
+- 💨 Live reload
+- ✅ Cache busting
 
-Slate will respect the following variables, if set in your site's `_config.yml`:
+### Included Components
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
+- Navbar
+- Hero
+- Features
+- CTA banner
+- Footer
+
+Find more components in our [premium NextJS themes](https://creativedesignsguru.com/category/nextjs/).
+
+### Philosophy
+
+- Minimal code
+- SEO-friendly
+- 🚀 Production-ready
+
+### Nextless.js SaaS Boilerplate
+
+Build your SaaS product faster with [React SaaS Boilerplate](https://nextlessjs.com).
+
+[![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/next-js-saas-starter-kit.jpg)](https://nextlessjs.com)
+
+### Premium Themes
+
+| [Green Nextjs Landing Page Template](https://creativedesignsguru.com/landing-green-modern-nextjs-theme/) | [Purple Saas Nextjs Theme](https://creativedesignsguru.com/landing-purple-modern-react-theme/) |
+| --- | --- |
+| [![Green Nextjs Landing Page Template](https://creativedesignsguru.com/assets/images/themes/landing-green-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-green-modern-nextjs-theme/) | [![Blue Landing Page Nextjs Theme](https://creativedesignsguru.com/assets/images/themes/landing-blue-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-blue-modern-react-theme/) |
+
+Find more [Nextjs Templates](https://creativedesignsguru.com/category/nextjs/).
+
+### Requirements
+
+- Node.js and npm
+
+### Getting started
+
+Run the following command on your local environment:
+
+```
+git clone --depth=1 https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template.git my-project-name
+cd my-project-name
+npm install
 ```
 
-Additionally, you may choose to set the following optional variables:
+Then, you can run locally in development mode with live reload:
 
-```yml
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
+```
+npm run dev
 ```
 
-### Stylesheet
+Open http://localhost:3000 with your favorite browser to see your project. For your information, Next JS need to take some time to compile the project for your first time.
 
-If you'd like to add your own custom styles:
+```
+.
+├── README.md            # README file
+├── next.config.js       # Next JS configuration
+├── public               # Public folder
+│   └── assets
+│       └── images       # Image used by default template
+├── src
+│   ├── background       # Atomic background component
+│   ├── button           # Atomic button component
+│   ├── cta              # Atomic cta component
+│   ├── feature          # Atomic feature component
+│   ├── footer           # Atomic footer component
+│   ├── hero             # Atomic hero component
+│   ├── layout           # Atomic layout component
+│   ├── navigation       # Atomic navigation component
+│   ├── pages            # Next JS pages
+│   ├── styles           # PostCSS style folder with Tailwind
+│   ├── templates        # Default template
+│   └── utils            # Utility folder
+├── tailwind.config.js   # Tailwind CSS configuration
+└── tsconfig.json        # TypeScript configuration
+```
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
+### Customization
 
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+You can easily configure the theme. Please change the following file:
 
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
+- `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your favicon, you can generate from https://favicon.io/favicon-converter/
+- `src/styles/global.css`: your CSS file using Tailwind CSS
+- `utils/AppConfig.ts`: configuration file
+- `src/pages/index.tsx`: the index page of the theme that uses the `Base` component
+- `src/template/Base.tsx`: the `Base` component using component blocks
+- `src/templates/*`: the list of component blocks
+- `src/*`: other folders in src are the atomic components used by components blocks
 
-### Layouts
+Here is the layer:
 
-If you'd like to change the theme's HTML layout:
+- the entry point: `index.tsx` in `src/pages`
+- the `Base` template: `Base.tsx` in `src/templates`
+- use component blocks from `src/templates/*`
+- use atomic components from `src/*`
 
-1. For some changes such as a custom `favicon`, you can add custom files in your local `_includes` folder. The files [provided with the theme](https://github.com/pages-themes/slate/tree/master/_includes) provide a starting point and are included by the [original layout template](https://github.com/pages-themes/slate/blob/master/_layouts/default.html).
-2. For more extensive changes, [copy the original template](https://github.com/pages-themes/slate/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-3. Create a file called `/_layouts/default.html` in your site
-4. Paste the default layout content copied in the first step
-5. Customize the layout as you'd like
+### Deploy to production
 
-### Customizing Google Analytics code
+You can see the results locally in production mode with:
 
-Google has released several iterations to their Google Analytics code over the years since this theme was first created. If you would like to take advantage of the latest code, paste it into `_includes/head-custom-google-analytics.html` in your Jekyll site.
+```
+$ npm run build
+$ npm run start
+```
 
-### Overriding GitHub-generated URLs
+The generated HTML and CSS files are minified (built-in feature from Next js). It will also removed unused CSS from [Tailwind CSS](https://tailwindcss.com).
 
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
+You can create an optimized production build with:
 
-1. Look at [the template source](https://github.com/pages-themes/slate/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
+```
+npm run build-prod
+```
 
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
+Now, your theme is ready to be deployed. All generated files are located at `out` folder, which you can deploy with any hosting service.
 
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
+### Deploy to Netlify
 
-## Roadmap
+Clone this repository on own GitHub account and deploy to Netlify:
 
-See the [open issues](https://github.com/pages-themes/slate/issues) for a list of proposed features (and known issues).
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template)
 
-## Project philosophy
+### Deploy to Vercel
 
-The Slate theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
+Deploy this Next JS Boilerplate on Vercel in one click:
 
-## Contributing
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fixartz%2FNext-JS-Landing-Page-Starter-Template)
 
-Interested in contributing to Slate? We'd love your help. Slate is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
+### VSCode information (optional)
 
-### Previewing the theme locally
+If you are VSCode users, you can have a better integration with VSCode by installing the suggested extension in `.vscode/extension.json`. The starter code comes up with Settings for a seamless integration with VSCode. The Debug configuration is also provided for frontend and backend debugging experience.
 
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
+Pro tips: if you need a project wide type checking with TypeScript, you can run a build with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> on Mac.
 
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/slate`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
+### Contributions
 
-### Running tests
+Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug.
 
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
+### License
+
+Licensed under the MIT License, Copyright © 2022
+
+See [LICENSE](LICENSE) for more information.
+
+---
+
+Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+
+[![Sponsor Next JS Boilerplate](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://www.buymeacoffee.com/ixartz)
