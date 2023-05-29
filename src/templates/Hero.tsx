@@ -23,15 +23,15 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'An app for\n'}
+            {'The app for\n'}
             <span className="text-primary-500">Entrepreneurs</span>
           </>
         }
-        description="Our vision is to provide the platform necessary to start, manage, and expand your business at your fingertips."
+        description="Our vision is to provide the platform to open, manage, and expand your business at your fingertips."
         button={
           <Link href="/">
             <a>
-              <Button xl>iOS App</Button>
+              <Button xl>Coming Soon</Button>
             </a>
           </Link>
         }
