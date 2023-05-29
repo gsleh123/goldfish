@@ -25,7 +25,7 @@ const ContactLayout = (props: IContactLayoutProps) => (
             </label>
           </div>
           <div className="md:w-2/3">
-            <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="inline-full-name" type="text" placeholder="Jane Doe"/>
+            <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="inline-full-name" type="text" placeholder="Jane Doe" name="full-name"/>
           </div>
         </div>
         <div className="md:flex md:items-center mb-6">
@@ -35,7 +35,7 @@ const ContactLayout = (props: IContactLayoutProps) => (
             </label>
           </div>
           <div className="md:w-2/3">
-            <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="inline-email" type="text" placeholder="example@gmail.com"/>
+            <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="inline-email" type="text" placeholder="example@gmail.com" name="email"/>
           </div>
         </div>
         <div className="md:flex md:items-center mb-6">
@@ -45,7 +45,7 @@ const ContactLayout = (props: IContactLayoutProps) => (
             </label>
           </div>
           <div className="md:w-2/3">
-            <textarea className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="inline-message" placeholder="Hello World!"/>
+            <textarea className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="inline-message" placeholder="Hello World!" name="message"/>
           </div>
         </div>
         <div className="md:flex md:items-center">
