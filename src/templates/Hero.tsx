@@ -27,7 +27,7 @@ const Hero = () => (
             <span className="text-primary-500">Entrepreneurs</span>
           </>
         }
-        description="Our vision is to provide the platform to open, manage, and expand your business at your fingertips."
+        description="Open, manage, and expand your business at your fingertips."
         button={
           <Link href="/">
             <a>
