@@ -15,7 +15,7 @@ const VerticalFeatures = () => (
     <VerticalFeatureRow
       title="Henry Sham"
       description="He old."
-      image="/assets/images/feature2.svg"
+      image="/assets/images/h.jpeg"
       imageAlt="Image of Henry Sham"
       reverse
     />
