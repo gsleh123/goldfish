@@ -4,33 +4,19 @@ import { Background } from '../background/Background';
 import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
-import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
-import { Logo } from './Logo';
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { AppConfig } from '../utils/AppConfig';
+import { NavBar } from './NavBar';
 
 const Hero = () => (
   <Background color="bg-gray-100">
-    <Section yPadding="py-6">
-      <NavbarTwoColumns logo={<Logo xl />}>
-        <li>
-          <Link href="/about">
-            <a>About</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="">
-            <a>Sign In</a>
-          </Link>
-        </li>
-      </NavbarTwoColumns>
-    </Section>
+    <NavBar />
 
     <Section yPadding="pt-20 pb-32">
       <HeroOneButton
         title={
           <>
-            {'Streamline your repitive tasks with AI \n'}
+            {'Streamline your repetitive tasks with AI \n'}
           </>
         }
         description={`${AppConfig.company_name} empowers businesses with AI to enable rapid growth and confident decision-making.`}

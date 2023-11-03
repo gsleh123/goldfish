@@ -22,32 +22,47 @@ const ContactLayout = (props: IContactLayoutProps) => (
 
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
-            <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-full-name">
-              Full Name
+            <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4 required" htmlFor="inline-full-name">
+              Full Name<span className="text-red-500">*</span>
             </label>
           </div>
           <div className="md:w-2/3">
-            <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="inline-full-name" type="text" placeholder="Jane Doe" name="full-name"/>
+            <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="inline-full-name" type="text" placeholder="Jane Doe" name="full-name" required/>
           </div>
         </div>
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
             <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-email">
-              Email
+              Email<span className="text-red-500">*</span>
             </label>
           </div>
           <div className="md:w-2/3">
-            <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="inline-email" type="text" placeholder="example@gmail.com" name="email"/>
+            <input className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="inline-email" type="text" placeholder="example@gmail.com" name="email" required/>
+          </div>
+        </div>
+        <div className="md:flex md:items-center mb-6">
+          <div className="md:w-1/3">
+            <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="contact-purpose">
+              Contact Purpose
+            </label>
+          </div>
+          <div className="md:w-2/3">
+            <select className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="contact-purpose" name="purpose">
+              <option value="">Please choose an option</option>
+              <option value="signup">Sign Up</option>
+              <option value="invest">Invest</option>
+              <option value="join">Join the team</option>
+            </select>
           </div>
         </div>
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
             <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-message">
-              Message
+              Message<span className="text-red-500">*</span>
             </label>
           </div>
           <div className="md:w-2/3">
-            <textarea className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="inline-message" placeholder="Hello World!" name="message"/>
+            <textarea className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="inline-message" placeholder="Hello World!" name="message" required/>
           </div>
         </div>
         <div className="md:flex md:items-center">
