@@ -47,12 +47,14 @@ const ContactLayout = (props: IContactLayoutProps) => (
             </label>
           </div>
           <div className="md:w-2/3">
-            <select className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="contact-purpose" name="purpose">
-              <option value="">Please choose an option</option>
-              <option value="signup">Sign Up</option>
-              <option value="invest">Invest</option>
-              <option value="join">Join the team</option>
-            </select>
+            <div className="relative mb-2 flex items-center after:w-[8px] after:h-[8px] after:border-black/70 after:border-b after:border-r after:transform after:rotate-45 after:absolute after:right-3">
+              <select className="select bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="contact-purpose" name="purpose">
+                <option value="" disabled selected hidden></option>
+                <option value="signup">Sign Up</option>
+                <option value="invest">Invest</option>
+                <option value="join">Join the team</option>
+              </select>
+            </div>
           </div>
         </div>
         <div className="md:flex md:items-center mb-6">
