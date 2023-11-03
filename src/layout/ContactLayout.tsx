@@ -13,7 +13,7 @@ const ContactLayout = (props: IContactLayoutProps) => (
   >
     <div className="mb-12 text-center">
       <h2 className="text-4xl text-gray-900 font-bold">Contact Us</h2>
-        <div className="mt-4 text-xl md:px-20">If you're interested in helping us with our dreams, please reach out.</div>
+        <div className="mt-4 text-xl md:px-20">Learn more about how AI automation can help you grow your business.</div>
     </div>
 
     <div className="flex flex-col items-center justify-center">

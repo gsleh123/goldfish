@@ -3,21 +3,14 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Goldfish"
-    description="Our mission is to empower entrepreneurs to create vibrant communities through the power of AI."
+    title="Empower your business with AI"
+    description="We’ll take care of the nitty-gritty, you focus on what’s important."
   >
     <VerticalFeatureRow
-      title="Goldwayne Leh"
-      description="With experience at Amazon, Microsoft, and TikTok, Goldwayne has built large scale production platforms used by millions of people. During the pandemic, as shops closed, the idea for Goldfish was born."
+      title="Our Mission"
+      description="Our mission is to provide business with the tools to success. Our suite of AI tools empowers users to seize fresh opportunities, tackle complex day-to-day operational challenges, and grow their businesses."
       image="/assets/images/feature.svg"
       imageAlt="Image of Goldwayne Leh"
-    />
-    <VerticalFeatureRow
-      title="Henry Sham"
-      description="He old."
-      image="/assets/images/h.jpeg"
-      imageAlt="Image of Henry Sham"
-      reverse
     />
   </Section>
 );
