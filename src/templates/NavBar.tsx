@@ -14,11 +14,6 @@ const NavBar = () => (
             <a>About</a>
           </Link>
         </li>
-        <li>
-          <Link href="">
-            <a>Coming Soon</a>
-          </Link>
-        </li>
       </NavbarTwoColumns>
     </Section>
   </Background>

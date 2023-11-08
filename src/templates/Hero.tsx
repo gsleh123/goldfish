@@ -21,10 +21,10 @@ const Hero = () => (
         }
         description={`${AppConfig.company_name} empowers businesses with AI to enable rapid growth and confident decision-making.`}
         button={
-          <Link href="/">
-            <a>
-              <Button xl>Get Started</Button>
-            </a>
+          <Link href="/contact-us">
+              <a>
+                <Button xl>Get Started</Button>
+              </a>
           </Link>
         }
       />
@@ -55,7 +55,7 @@ const Hero = () => (
     />
     <VerticalFeatureRow
       title="Harness growth"
-      description="Focus on what’s important to your business, and achieve new levels of  growth."
+      description="Focus on what’s important to your business, and achieve new levels of growth."
       image="/assets/images/feature3.svg"
       imageAlt="Image of Henry Sham"
     />
