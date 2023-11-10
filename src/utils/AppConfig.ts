@@ -1,7 +1,7 @@
 export const AppConfig = {
-  site_name: 'Goldfish',
-  title: 'Goldfish',
-  description: 'Landing page for Goldfish.',
+  site_name: 'OptiFlow',
+  title: 'OptiFlow',
+  description: 'Landing page for OptiFlow.',
   locale: 'en',
-  company_name: 'COMPANY NAME',
+  company_name: 'OptiFlow',
 };
