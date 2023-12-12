@@ -16,10 +16,10 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'Streamline your repetitive tasks with AI \n'}
+            {`Our mission is to help business thrive. With ${AppConfig.company_name} , anybody can run a successful business.\n`}
           </>
         }
-        description={`${AppConfig.company_name} empowers businesses with AI to enable rapid growth and confident decision-making.`}
+        description={`We are redrawing the boundaries of AI and human collaboration. Harness and unlock your business's full potential.`}
         button={
           <Link href="/contact-us">
               <a>
@@ -33,13 +33,10 @@ const Hero = () => (
     <Section
     title={
       <>
-        {'Create a ' }
-        <span className="text-primary-500">single</span>
-        {' source of truth'}
+        {'Truly a custom-built ERP, for you and your SME.'}
       </>
     }
-    description={`${AppConfig.company_name} centralizes all of your data, and gives you a clear and accurate picture of your business, to give you clarity and peace of mind`}
-  >
+    description={`${AppConfig.company_name} leverages AI to tailor an ERP fit for your business today and in the future.`}>
     <VerticalFeatureRow
       title="Reclaim your time"
       description={`Delegate and automate repetitive tasks to AI. ${AppConfig.company_name} will take care of the rest.`}
@@ -54,8 +51,8 @@ const Hero = () => (
       reverse
     />
     <VerticalFeatureRow
-      title="Harness growth"
-      description="Focus on what’s important to your business, and achieve new levels of growth."
+      title="Results now"
+      description="Spin up a custom fit ERP for you, in 15 minutes."
       image="/assets/images/feature3.svg"
       imageAlt="Image of Henry Sham"
     />
