@@ -5,7 +5,6 @@ import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
-import { AppConfig } from '../utils/AppConfig';
 import { NavBar } from './NavBar';
 
 const Hero = () => (
@@ -16,10 +15,10 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {`Our mission is to help business thrive. With ${AppConfig.company_name} , anybody can run a successful business.\n`}
+            {`Business management made simple, and customizable, with intuitive tooling and AI\n`}
           </>
         }
-        description={`We are redrawing the boundaries of AI and human collaboration. Harness and unlock your business's full potential.`}
+        description={`Reduce costs, save time, and increase your revenue. Our AI-powered platform can help you save time with invoice management, inventory, marketing, and analyzing business performance.`}
         button={
           <Link href="/contact-us">
               <a>
@@ -33,26 +32,26 @@ const Hero = () => (
     <Section
     title={
       <>
-        {'Truly a custom-built ERP, for you and your SME.'}
+        {'Stop spending money on expensive business consultants'}
       </>
     }
-    description={`${AppConfig.company_name} leverages AI to tailor an ERP fit for your business today and in the future.`}>
+    description={`Our AI, Mia, can understand your entire business and build you a custom business management platform in 15 minutes. No more paying IT consultants to spin up a tool in 18 months.`}>
     <VerticalFeatureRow
-      title="Reclaim your time"
-      description={`Delegate and automate repetitive tasks to AI. ${AppConfig.company_name} will take care of the rest.`}
+      title="Invoice Management"
+      description={`Stop wasting time with invoice management and data entry\n \t- Automate all your orders \n\t-Upload invoices just with a snapshot. We’ll handle the rest.`}
       image="/assets/images/feature.svg"
       imageAlt="Image of Goldwayne Leh"
     />
     <VerticalFeatureRow
-      title="Achieve clarity"
-      description="With a single source of truth, you can confidently make decisions for your business."
+      title="Comprehensive Feature Set"
+      description="We offer:\n\t- Inventory Management\n\t- Order Fulfillment\n\t- Accounts receivable & payable\n So you can focus on growing your business"
       image="/assets/images/feature2.svg"
       imageAlt="Image of Henry Sham"
       reverse
     />
     <VerticalFeatureRow
-      title="Results now"
-      description="Spin up a custom fit ERP for you, in 15 minutes."
+      title="Intuitive Analytics"
+      description="Tired of hard-to-follow analytics? Lean on real-time actionable insights to help your business succeed."
       image="/assets/images/feature3.svg"
       imageAlt="Image of Henry Sham"
     />
