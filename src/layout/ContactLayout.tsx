@@ -42,13 +42,13 @@ const ContactLayout = (props: IContactLayoutProps) => (
         </div>
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
-            <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="contact-purpose">
+            <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="features">
               What features most interest you?
             </label>
           </div>
           <div className="md:w-2/3">
             <div className="relative mb-2 flex items-center after:w-[8px] after:h-[8px] after:border-black/70 after:border-b after:border-r after:transform after:rotate-45 after:absolute after:right-3">
-              <select multiple className="select bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-gray-200 focus:border-primary-500" id="contact-purpose" name="purpose" required>
+              <select multiple className="select bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-gray-200 focus:border-primary-500" id="features" name="features" required>
                 <option value="invoice">Invoice Management</option>
                 <option value="inventory">Inventory Management</option>
                 <option value="order">Order Fulfillment</option>
