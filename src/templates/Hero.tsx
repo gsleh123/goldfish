@@ -53,7 +53,7 @@ const Hero = () => (
       title="Comprehensive Feature Set"
       description={
         <>
-          {`Focus on growing your business:\n Invoice Management \n Inventory Management\n Order Fulfillment\n Accounts Receivable & Payable\n`}
+          {`Focus on growing your business:\n Invoice Management \n Inventory Management\n Order Fulfillment\n Accounts Receivable & Payable\n Project Management\n`}
         </>
       }
       image="/assets/images/feature3.svg"
