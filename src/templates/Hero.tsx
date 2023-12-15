@@ -38,7 +38,7 @@ const Hero = () => (
     description={`Our AI, Mia, can understand your entire business and build you a custom business management platform in 15 minutes. No more paying IT consultants to spin up a tool in 18 months.`}>
     <VerticalFeatureRow
       title="Invoice Management"
-      description={`Let us handle your invoice management:\n -Automate your orders \n-Upload invoices with a snap`}
+      description={`Let us handle your invoice management:\n Automate your orders \nUpload invoices with a snap`}
       image="/assets/images/feature.svg"
       imageAlt="Image of Goldwayne Leh"
     />
@@ -53,7 +53,7 @@ const Hero = () => (
       title="Comprehensive Feature Set"
       description={
         <>
-          {`Focus on growing your business:\n- Invoice Management \n- Inventory Management\n- Order Fulfillment\n - Accounts receivable & payable\n`}
+          {`Focus on growing your business:\n Invoice Management \n Inventory Management\n Order Fulfillment\n Accounts Receivable & Payable\n`}
         </>
       }
       image="/assets/images/feature3.svg"
