@@ -15,7 +15,7 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {`Business management made simple, and customizable, with intuitive tooling and AI\n`}
+            {`Business management made simple, and customizable, with intuitive tooling and AI\nTest`}
           </>
         }
         description={`Reduce costs, save time, and increase your revenue. Our AI-powered platform can help you save time with invoice management, inventory, marketing, and analyzing business performance.`}
@@ -38,13 +38,13 @@ const Hero = () => (
     description={`Our AI, Mia, can understand your entire business and build you a custom business management platform in 15 minutes. No more paying IT consultants to spin up a tool in 18 months.`}>
     <VerticalFeatureRow
       title="Invoice Management"
-      description={`Stop wasting time with invoice management and data entry\n \t- Automate all your orders \n\t-Upload invoices just with a snapshot. We’ll handle the rest.`}
+      description={`Stop wasting time with invoice management and data entry\n\t-Automate all your orders \n\t-Upload invoices just with a snapshot. We’ll handle the rest.`}
       image="/assets/images/feature.svg"
       imageAlt="Image of Goldwayne Leh"
     />
     <VerticalFeatureRow
       title="Comprehensive Feature Set"
-      description="We offer:\n\t- Inventory Management\n\t- Order Fulfillment\n\t- Accounts receivable & payable\n So you can focus on growing your business"
+      description={`We offer:\n\t- Inventory Management\n\t- Order Fulfillment\n\t- Accounts receivable & payable\n So you can focus on growing your business`}
       image="/assets/images/feature2.svg"
       imageAlt="Image of Henry Sham"
       reverse
