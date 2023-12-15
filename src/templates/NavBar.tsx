@@ -10,8 +10,8 @@ const NavBar = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="/about">
-            <a>About</a>
+          <Link href="/contact-us">
+            <a>Sign Up</a>
           </Link>
         </li>
       </NavbarTwoColumns>

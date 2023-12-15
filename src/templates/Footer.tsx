@@ -14,11 +14,11 @@ const Footer = () => (
             <a>Home</a>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/about">
             <a>About</a>
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link href="/contact-us">
             <a>Contact Us</a>
