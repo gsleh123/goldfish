@@ -15,7 +15,7 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {`Business management made simple, and customizable, with intuitive tooling and AI\nTest`}
+            {`Business management made simple, and customizable, with intuitive tooling and AI\n`}
           </>
         }
         description={`Reduce costs, save time, and increase your revenue. Our AI-powered platform can help you save time with invoice management, inventory, marketing, and analyzing business performance.`}
