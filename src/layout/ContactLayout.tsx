@@ -12,8 +12,8 @@ const ContactLayout = (props: IContactLayoutProps) => (
     }`}
   >
     <div className="mb-12 text-center">
-      <h2 className="text-4xl text-gray-900 font-bold">Contact Us</h2>
-        <div className="mt-4 text-xl md:px-20">Learn more about how AI automation can help you grow your business.</div>
+      <h2 className="text-4xl text-gray-900 font-bold">Join the Waitlist</h2>
+        <div className="mt-4 text-xl md:px-20">Grow your business with the help of OptiFlow's business management platform.</div>
     </div>
 
     <div className="flex flex-col items-center justify-center">
@@ -43,16 +43,37 @@ const ContactLayout = (props: IContactLayoutProps) => (
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
             <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="contact-purpose">
-              Contact Purpose
+              What features most interest you?
             </label>
           </div>
           <div className="md:w-2/3">
             <div className="relative mb-2 flex items-center after:w-[8px] after:h-[8px] after:border-black/70 after:border-b after:border-r after:transform after:rotate-45 after:absolute after:right-3">
-              <select className="select bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="contact-purpose" name="purpose">
+              <select multiple className="select bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-gray-200 focus:border-primary-500" id="contact-purpose" name="purpose" required>
+                <option value="invoice">Invoice Management</option>
+                <option value="inventory">Inventory Management</option>
+                <option value="order">Order Fulfillment</option>
+                <option value="analytics">Analytics</option>
+                <option value="accounts">Accounts Payable/Receivable</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div className="md:flex md:items-center mb-6">
+          <div className="md:w-1/3">
+            <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="contact-purpose">
+              Industry Focus<span className="text-red-500">*</span>
+            </label>
+          </div>
+          <div className="md:w-2/3">
+            <div className="relative mb-2 flex items-center after:w-[8px] after:h-[8px] after:border-black/70 after:border-b after:border-r after:transform after:rotate-45 after:absolute after:right-3">
+              <select className="select bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary-500" id="contact-purpose" name="purpose" required>
                 <option value="" disabled selected hidden></option>
-                <option value="signup">Sign Up</option>
-                <option value="invest">Invest</option>
-                <option value="join">Join the team</option>
+                <option value="ecommerce">E-commerce</option>
+                <option value="retail">Retail</option>
+                <option value="pro">Professional Services/Consultant</option>
+                <option value="manufacturing">Manufacturing</option>
+                <option value="industrials">Industrials (Construction, Real Estate, etc.)</option>
+                <option value="other">Other</option>
               </select>
             </div>
           </div>

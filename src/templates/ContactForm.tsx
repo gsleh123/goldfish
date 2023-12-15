@@ -9,6 +9,7 @@ const ContactForm = () => (
 
     <Section yPadding="py-6">
       <ContactLayout>
+        <></>
       </ContactLayout>
     </Section>
 
