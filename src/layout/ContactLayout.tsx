@@ -72,6 +72,8 @@ const ContactLayout = (props: IContactLayoutProps) => (
                 <option value="ecommerce">E-commerce</option>
                 <option value="retail">Retail</option>
                 <option value="pro">Professional Services/Consultant</option>
+                <option value="fashion">Fashion</option>
+                <option value="design">Design</option>
                 <option value="manufacturing">Manufacturing</option>
                 <option value="industrials">Industrials (Construction, Real Estate, etc.)</option>
                 <option value="other">Other</option>
